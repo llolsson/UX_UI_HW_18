@@ -1,0 +1,148 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  height: 90px;
+  background-color: #52bee5;
+  font-family: 'Quicksand', sans-serif;
+}
+li {
+  float: right;
+}
+li a {
+ display:block;
+ text-align: center;
+ padding: 20px;
+ text-decoration: none;
+ font-size: 25px;
+ margin-bottom: 30px;
+ font-family: 'Quicksand', sans-serif;
+ color: #000;
+}
+li a:hover {
+  background-color: #ffe88e;
+  
+}
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 400px;
+  margin: 70px auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+#categoryGrid {
+  margin: 0px;
+  display: grid;
+  height: auto;
+  grid-template-rows: 200% 200%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "caseystudy1 casestudy2"
+  "casestudy3 casestudy4";
+}
+
+#casestudy1{
+  grid-area: Case Study 1;
+  background-image: url("../Images/phonedisplaybrownbackroundimage.jpg");
+
+}
+#casestudy2 {
+  grid-area: Case Study 2;
+  background-image: url("../images/yellowlaptopdisplayimage.jpg");
+}
+
+#casestudy3 {
+  grid-area: Case Study 3;
+  background-image: url("../Images/Device\ Display\ Falling\ View\ Image.jpg.jpg");
+}
+#casestudy4 {
+  grid-area: Case Study 4;
+  background-image: url("../Images/phonedisplayyellowbackgorundimage.png");
+}
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #dd86bf;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.bigheader{
+  margin: 100px;
+  padding: 0px;
+}
+h1 {
+  text-align: center;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 5px;
+  padding: 0px;
+}
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+#container{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated{
+  float: left;
+  width: 200px;
+  margin: 20px;
+}
+#container1{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:right;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated1{
+  float: right;
+  width: 200px;
+  margin: 20px;
+}
+#container2{
+  width: 80%;
+  background: rgb(255, 255, 255);
+  text-align:left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 23px;
+  margin: 100px;
+  padding: 3px;
+}
+#floated2{
+  float: left;
+  width: 150px;
+  margin: 20px;
+}
