@@ -23,67 +23,10 @@ li a:hover {
   background-color: #ffe88e;
   
 }
-.subHeading {
-  text-align: center;
-  border-bottom: 2px solid black;
-  width: 400px;
-  margin: 70px auto;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-#categoryGrid {
-  margin: 0px;
-  display: grid;
-  height: auto;
-  grid-template-rows: 200% 200%;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-  "caseystudy1 casestudy2"
-  "casestudy3 casestudy4";
-}
-
-#casestudy1{
-  grid-area: Case Study 1;
-  background-image: url("../Images/phonedisplaybrownbackroundimage.jpg");
-
-}
-#casestudy2 {
-  grid-area: Case Study 2;
-  background-image: url("../images/yellowlaptopdisplayimage.jpg");
-}
-
-#casestudy3 {
-  grid-area: Case Study 3;
-  background-image: url("../Images/Device\ Display\ Falling\ View\ Image.jpg.jpg");
-}
-#casestudy4 {
-  grid-area: Case Study 4;
-  background-image: url("../Images/phonedisplayyellowbackgorundimage.png");
-}
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 10px;
-  cursor: pointer;
-  display: grid;
-  align-content: end;
-}
-
-.heading {
-  background-color: rgba(0,0,0,0.7);
-  padding: 15px;
-  height: 25px;
-  color: white;
-  font-size: 18px;
-  border-bottom: 5px solid #dd86bf;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-}
 .bigheader{
-  margin: 100px;
-  padding: 0px;
+  margin: 0px;
+  padding: 150px;
+  background-image: url("../images/bluegridbackroundimage2.png");
 }
 h1 {
   text-align: center;
@@ -99,6 +42,53 @@ p {
   margin: 5px;
   padding: 0px;
 }
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 400px;
+  margin: 70px auto;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  grid-template-areas: "hover" "disabled";
+  height: 100px;
+
+}
+.hoverMe {
+  grid-area: hover;
+  background-color: rgb(232, 157, 245);
+  color: rgb(0, 0, 0);
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+  font-family: 'Quicksand', sans-serif;
+  font-size: medium;
+}
+/* active state */
+.hoverMe:hover {
+  background-color:rgb(184, 134, 80);
+}
+
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #dd86bf;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
 img {
   border-radius: 10px;
   max-width: 100%;
@@ -145,4 +135,72 @@ img {
   float: left;
   width: 150px;
   margin: 20px;
+}
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.categoryGridArea1 {
+  background-image: url("../Images/Device\ Display\ Falling\ View\ Image.jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea2 {
+  background-image: url("../images/phonedisplayyellowbackgorundimage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea3 {
+  background-image: url("../images/Displaying\ Lofi\ Wireframe\ Image.png.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea4 {
+  background-image: url("../images/yellowlaptopdisplayimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea5 {
+  background-image: url("../images/Blueprint\ Phone\ Image.png.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
+.categoryGridArea6 {
+  background-image: url("../images/blackandwhitecomputerdisplayimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
 }
