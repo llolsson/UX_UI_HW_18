@@ -1,10 +1,13 @@
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  height: 90px;
+  height: 81px;
   background-color: #52bee5;
   font-family: 'Quicksand', sans-serif;
+  position:fixed;
+  width: 100%;
 }
 li {
   float: right;
@@ -21,13 +24,23 @@ li a {
 }
 li a:hover {
   background-color: #ffe88e;
-  
+  height: 80px;  
 }
 .bigheader{
   margin: 0px;
   padding: 150px;
   background-image: url("../images/bluegridbackroundimage2.png");
 }
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  margin:0px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h1 {
   text-align: center;
   font-family: 'Permanent Marker', sans-serif;
@@ -60,7 +73,7 @@ p {
   color: white;
   grid-template-areas: "hover" "disabled";
   height: 100px;
-
+  cursor: pointer;
 }
 .hoverMe {
   grid-area: hover;
