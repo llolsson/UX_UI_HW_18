@@ -29,7 +29,7 @@ li a:hover {
 .bigheader{
   margin: 0px;
   padding: 150px;
-  background-image: url("../Images/bluegridbackroundimage2.png");
+  background-image: url("../Images/bluegridbackroundimage2.PNG");
 }
 .image2 {
   position: absolute;
@@ -168,7 +168,7 @@ img {
   align-content: end;
 }
 .categoryGridArea2 {
-  background-image: url("../images/phonedisplayyellowbackgorundimage.png");
+  background-image: url("../images/phonedisplaybrownbackroundimage.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ img {
   align-content: end;
 }
 .categoryGridArea3 {
-  background-image: url("../images/Displaying\ Lofi\ Wireframe\ Image.png.png");
+  background-image: url("../Images/Displaying\ Lofi\ Wireframe\ Image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ img {
   align-content: end;
 }
 .categoryGridArea5 {
-  background-image: url("../images/Blueprint\ Phone\ Image.png.png");
+  background-image: url("../Images/Blueprint\ Phone\ Image.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
